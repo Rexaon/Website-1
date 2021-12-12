@@ -1,0 +1,62 @@
+nav{
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    background-color: darkslategray;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    justify-content: flex-end;
+}
+
+li a{
+    float: left;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.active,
+nav ul li a:hover{
+    color: purple;
+    background: lightpink;
+}
+
+.div1{
+    background-image: url("First\ pic.jpg");
+    color: white;
+    font-size:xxx-large;
+}
+
+.div2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.div3{
+    color: white;
+    bottom: 12px;
+    font-size: medium;
+}
+
+.div4{
+    display: flex;
+    background-color: darkslategray;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    font-size: x-large;
+}
+
+footer{
+    display: flex;
+    background-color: lightyellow;
+    margin: 10px;
+    padding: 20px;
+    justify-content: center;
+}
